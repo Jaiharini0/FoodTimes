@@ -217,7 +217,7 @@ body.active-myForm{
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .container {
     width: 100%;
   }
 }
