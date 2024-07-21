@@ -1,0 +1,206 @@
+*{
+    margin:0; 
+    /* height: 3000px; */
+    /* filter: blur(5px);
+    background: rgba(0,0,0,0.07); */
+    
+}
+
+#mainlogo{
+    border-radius: 50%;
+}
+
+#logo{
+    transition: transform .2s;
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+.nav-link {
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    font-size: 15px;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    transition: .5s;
+}
+
+.nav-link {
+    padding: 20px 0;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: orange !important;
+}
+
+.login{
+    border-radius: 50px;
+}
+
+#myform{
+    display: none;
+    border:3px solid #42240c;
+    position: relative;
+    margin-left: 800px;
+    margin-top: 300px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+}
+
+body.active-myForm{
+    overflow: hidden;
+}
+
+
+body.active-myForm{
+    filter: blur(5px);
+    background:rgba(0,0,0,0.07);
+}
+
+#img{
+        animation-duration: 1s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+ #card {
+      border: none;
+      animation-duration: 3s;
+      animation-name: slide;
+    }
+    
+    @keyframes slide {
+      from {
+        margin-top: 100%;
+        width: 300%;
+      }
+    
+      
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+
+    }
+
+#services{
+    animation-duration: 5s;
+    animation-name: service;
+}
+
+@keyframes service {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    
+  
+    to {
+      margin-left: 10%;
+      width: 100%;
+    }
+
+  }
+
+
+#home{
+    background-color:  #ffc93c;
+    background-image: linear-gradient(to left,#42240c ,  #ffc93c);
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+
+}
+
+#btn{
+    position: relative; 
+    margin-left: 30px;
+    padding: 35px 0;
+    
+}
+
+#about{
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+#services{
+    margin-left: 150px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+#accordionExample{
+    margin-bottom: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.rating-color{
+    color: #ffc93c;
+}
+
+.btn.btn-link{
+    text-decoration: none;
+    color: #ffc93c;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color:#ffc93c;
+    padding: 3px;
+}
+
+#footer h3{
+     margin-left: 500px;
+} 
+
+
+#testimonial{
+    margin-bottom: 400px;
+}
+
+.btn.btn-outline-light.btn-social{
+    padding: 5px;
+    border:none;
+}
+
+#contact{
+    animation-duration: 6s;
+    animation-name: contact;
+}
+
+@keyframes contact{
+    from{
+        margin-bottom: 100%;
+        width: 100%;
+    }
+    to{
+        margin-left: 7%;
+        width: 100%;
+    }
+}
